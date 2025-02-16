@@ -59,8 +59,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     AzureB2C,
     BankIDNorway,
     BoxyHQSAML({
-      clientId: "dummy",
-      clientSecret: "dummy",
+      clientId: "174274796007-75qmckk51irgj0eentqr7armskkle9qo.apps.googleusercontent.com",
+      clientSecret: "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",
       issuer: process.env.AUTH_BOXYHQ_SAML_ISSUER,
     }),
     Cognito,
